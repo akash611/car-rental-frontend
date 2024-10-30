@@ -15,7 +15,7 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
   standalone: true,
   imports: [RouterOutlet, NzSpinModule, NzLayoutModule, NzMenuModule, RouterLink,RouterLinkActive],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrl: './app.component.scss',
 
 })
 export class AppComponent {
